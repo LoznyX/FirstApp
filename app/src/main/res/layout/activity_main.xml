@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_margin="8dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="#D10A20"
+            android:backgroundTint="@color/d10a20"
             android:onClick="sprawdzOk"
             android:layout_weight="1"
             android:text="" />
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#1D60A2"
+            android:backgroundTint="@color/purple"
             android:layout_margin="8dp"
             android:onClick="sprawdzUkryj"
             android:text="" />
