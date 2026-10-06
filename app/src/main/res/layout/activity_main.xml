@@ -16,6 +16,8 @@
 
 
     <TextView
+        android:id="@+id/textViewPytanie"
+        android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="32sp"
@@ -37,6 +39,7 @@
             android:layout_weight="1"
             android:layout_margin="8dp"
             android:backgroundTint="@color/black"
+            android:onClick="sprawdzUkryj"
             android:text="" />
 
         <Button
@@ -72,6 +75,7 @@
             android:layout_weight="1"
             android:backgroundTint="#1D60A2"
             android:layout_margin="8dp"
+            android:onClick="sprawdzUkryj"
             android:text="" />
 
         <Button
@@ -81,12 +85,14 @@
             android:layout_weight="1"
             android:layout_margin="8dp"
             android:backgroundTint="#871285"
+            android:onClick="sprawdzUkryj"
             android:text="" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="sprawdzUkryj"
             android:layout_weight="1"
             android:layout_margin="8dp"
             android:backgroundTint="#B3F418"
