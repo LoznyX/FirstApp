@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rozmiartekstu">32sp</dimen>
+    <dimen name="button">8dp</dimen>
+    <dimen name="margin_button">16dp</dimen>
+</resources>

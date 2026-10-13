@@ -20,7 +20,7 @@
         android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="32sp"
+        android:textSize="@dimen/rozmiartekstu"
         android:layout_margin="16dp"
         android:padding="8dp"
         android:textColor="#540BD5"
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:backgroundTint="@color/black"
             android:onClick="sprawdzUkryj"
             android:text="" />
@@ -45,7 +45,7 @@
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/d10a20"
             android:onClick="sprawdzOk"
@@ -54,7 +54,7 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/purple"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:onClick="sprawdzUkryj"
             android:text="" />
 
@@ -83,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:backgroundTint="#871285"
             android:onClick="sprawdzUkryj"
             android:text="" />
@@ -94,7 +94,7 @@
             android:layout_height="wrap_content"
             android:onClick="sprawdzUkryj"
             android:layout_weight="1"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:backgroundTint="#B3F418"
             android:text="" />
     </LinearLayout>
